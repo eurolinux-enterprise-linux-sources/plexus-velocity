@@ -33,7 +33,7 @@
 
 Name:           plexus-velocity
 Version:        1.1.8
-Release:        15%{?dist}
+Release:        16%{?dist}
 Epoch:          0
 Summary:        Plexus Velocity Component
 License:        ASL 2.0
@@ -122,6 +122,9 @@ cp -pr target/site/apidocs/* %{buildroot}/%{_javadocdir}/%{name}
 %doc %{_javadocdir}/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.1.8-16
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.1.8-15
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
